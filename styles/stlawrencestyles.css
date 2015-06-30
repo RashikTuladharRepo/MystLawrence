@@ -1,0 +1,177 @@
+*
+{
+	margin:0 auto;
+}
+
+@font-face {
+    font-family: 'dancingscript';
+    src: url('../fonts/DancingScript-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar
+{
+    min-height: 80px;
+    border-bottom: none;
+    background: #00443C;
+}
+
+.navbar-brand
+{
+    height: 80px;
+    background-image: url("../images/logo.png");
+    width: 200px;
+	background-repeat:no-repeat;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 23px;
+}
+
+.navbar-nav > li
+{
+    display: block;
+}
+
+.navbar-nav > li > a
+{
+    height: 80px;
+    text-align: center;
+    padding: 30px;
+    line-height:20px;
+	color:#F7941E;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color:#F7941E;
+    font-size: 16px;
+    font-weight: 100;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+    color: #FFFFFF;
+/*    background: #F7941E;*/
+}
+
+.navbar-default .navbar-nav .active
+{
+    color: #FFFFFF;
+    background-image:url(../images/arrow.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+
+.slider
+{
+	height:520px;
+	margin-top:80px;
+}
+
+.aboutstlawrence
+{
+	padding-top: 70px;
+	margin-bottom:50px;
+}
+
+.aboutstlawrence h1
+{
+	font-family:dancingscript;
+	text-align:center;
+}
+
+.aboutstlawrence p
+{
+	font-size:16px;
+	text-align:justify;
+}
+
+.ticker {
+	height: 150px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: arial;
+}
+
+#ticker_02 {
+	height: 400px;
+}
+
+.ticker h4
+{
+	margin-top:-5px;
+}
+
+.ticker li {
+	height: auto;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding: 5px;
+}
+
+@media (max-width:650px)
+{
+	.aboutstlawrence
+	{
+		padding-top:1px;
+		margin-top:-250px;
+		margin-bottom:5px;
+	}
+}
+
+
+.footer-content
+{
+	padding-top:10px;
+	height:auto;
+	background:rgba(0,0,0,0.1);
+}
+
+.footer-content h3
+{
+	color:#F7941E;
+	font-family:dancingscript;
+	text-align:center;
+}
+
+.college-info ul li
+{
+	list-style:none;
+	font-size:16px;
+	font-weight:100;
+}
+
+.college-info ul li
+{
+	padding:10px;
+}
+
+.college-info ul li a
+{
+	text-decoration:none;
+	color:#00443C;
+}
+
+.college-info ul li a:hover
+{
+	color:#F7941E;
+}
+
+.footer
+{
+	background:#00443C;
+	padding-top:30px;
+	text-align:center;
+	color:#F7941E;
+	font-family:dancingscript;
+	font-size:18px;
+	min-height:60px;
+}
